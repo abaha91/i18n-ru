@@ -2,6 +2,9 @@ export default function toGenitive(word, consonantsLetters) {
   if (word.slice(word.length -3) == 'ний') {
     return `${word.slice(0, word.length - 2)}его`;
   }
+  if (word.slice(word.length -2) == 'яя') {
+    return `${word.slice(0, word.length - 2)}ей`;
+  }
   if (word.slice(word.length -2) == 'ий' || word.slice(word.length -2) == 'ый' || word.slice(word.length -2) == 'ой') {
     return `${word.slice(0, word.length - 2)}ого`;
   }
@@ -30,4 +33,4 @@ export default function toGenitive(word, consonantsLetters) {
     return `${word}a`;
   }
   return word;
-}
+};
