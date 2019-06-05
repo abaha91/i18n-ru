@@ -1,19 +1,19 @@
 # i18n-ru
 
-i18n-ru is a js plugin for declension of nouns in Russian language.
+i18n-ru is a js plugin for internationalization of nouns in Russian language.
 
 ## Installation
 
-Use the package manager npm to install i18n.
+Use the package manager npm to install i18n-ru.
 
 ```bash
-npm i -D i18n
+npm i -D i18n-ru
 ```
 
 ## Usage
 
 ```python
-import toDeclention from 'i18n';
+import toDeclention from 'i18n-ru';
 ```
 
 <b>toDeclention</b> is a function that takes two arguments: <b>case</b>(string) and <b>word</b>(string) and return declentioned word.
@@ -38,6 +38,6 @@ toDeclension('genitive', 'Верхней Пышмы'); // Нижнего Нов�
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
+[Github](https://github.com/abaha91)
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
