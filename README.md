@@ -13,12 +13,12 @@ npm i -D i18n-ru
 ## Usage
 
 ```python
-import toDeclention from 'i18n-ru';
+import toDeclension from 'i18n-ru';
 ```
 
 <b>toDeclention</b> is a function that takes two arguments: <b>case</b>(string) and <b>word</b>(string) and return declentioned word.
 
-cases supported 'vinit' and 'genitive'.
+<b>Cases supported:</b> 'vinit' and 'genitive'.
 
 
 ## Example
@@ -38,6 +38,7 @@ toDeclension('genitive', 'Верхняя Пышма'); // Верхней Пыш�
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Repository
 [Github](https://github.com/abaha91)
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
