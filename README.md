@@ -24,7 +24,7 @@ cases supported 'vinit' and 'genitive'.
 ## Example
 ```python
 toDeclension('vinit', 'Верхняя Пышма'); // Верхнюю Пышму
-toDeclension('genitive', 'Верхней Пышмы'); // Нижнего Новгорода
+toDeclension('genitive', 'Верхняя Пышма'); // Верхней Пышмы
 ```
 
 ## React Example
