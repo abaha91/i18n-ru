@@ -1,6 +1,6 @@
 {
   "name": "i18n-ru",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "i18n plugin for Russian city names",
   "main": "app.js",
   "scripts": {
